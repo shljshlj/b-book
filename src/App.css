@@ -1,3 +1,7 @@
+html {
+  font-size: 15px;
+}
+
 body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -8,7 +12,14 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: inherit;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .site-container {
@@ -18,5 +29,8 @@ a {
 }
 
 .main-content {
+  position: relative;
+  top: 60px;
+  min-height: calc(100vh - 60px);
   background-color: #f0f2f5;
 }
