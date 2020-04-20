@@ -1,4 +1,4 @@
-[
+export const users = [
   {
     "id": 0,
     "sid": "R0B4Q09aP",
@@ -185,4 +185,4 @@
       "last": "Predovic"
     }
   }
-]
+];

@@ -1,4 +1,4 @@
-[
+export const posts = [
   {
     "id": 1,
     "sid": "6_gaFS-JQ27",
@@ -107,4 +107,4 @@
     "type": "text",
     "text": "Non exercitationem placeat voluptatem quaerat illum fugit officiis. Deleniti error itaque enim ut officia atque nostrum ducimus. Quo dolor sequi labore ea dignissimos esse veniam. Quibusdam laudantium eum et pariatur. Aliquam vitae ab nam."
   }
-]
+];

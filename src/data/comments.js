@@ -1,4 +1,4 @@
-[
+export const comments = [
   {
     "id": 1,
     "sid": "H45C9578nE",
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "sid": "CoL6Z_lDiJL",
-    "postId": 1,
+    "postId": 2,
     "userId": 8,
     "createdAt": "2019-01-16T17:58:52.638Z",
     "isPublic": true,
@@ -215,4 +215,4 @@
     "isPublic": false,
     "body": "Laboriosam quibusdam aliquam debitis et. Consectetur quibusdam perspiciatis delectus numquam ad fugit dicta. Eveniet tenetur praesentium ab sit. Occaecati dolorem eveniet enim. Dolor perspiciatis enim blanditiis id eius facere consequuntur et perspiciatis. Ut aut temporibus vero."
   }
-]
+];
