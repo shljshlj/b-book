@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './header.styles.scss';
+import './site-header.styles.scss';
 
-const Header = () => (
+const SiteHeader = () => (
   <header className="site-header">
     <div className="site-logo-container">
       <a className="site-logo" href="/">B-Book</a>
@@ -10,4 +10,4 @@ const Header = () => (
   </header>
 );
 
-export default Header;
+export default SiteHeader;
