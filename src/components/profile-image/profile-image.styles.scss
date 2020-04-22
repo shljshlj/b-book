@@ -1,0 +1,48 @@
+.img-link {
+  display: inline-block;
+  user-select: none;
+
+  &:active .profile-header__image-inside {
+    border: 4px solid #fff;
+  }
+
+  &:active .profile-header__image-inside::after {
+    opacity: 0.2;
+  }
+}
+
+.profile-header__image {
+  &-outside {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #fff;
+    background-color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &-inside {
+    height: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: grey;
+      opacity: 0;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
