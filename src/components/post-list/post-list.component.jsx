@@ -41,11 +41,11 @@ class PostList extends Component {
     const { posts } = this.state;
 
     if (!posts.length) {
-      return <div className="post-list__container">Nothing in feed</div>;
+      return <div className="post-list__content">Nothing in feed</div>;
     }
 
     return (
-      <div className="post-list__container">
+      <div className="post-list__content">
         {posts.map(post => <PostItem key={post.sid} post={post} />)}
       </div>
     );

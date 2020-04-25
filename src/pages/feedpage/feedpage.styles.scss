@@ -1,9 +1,11 @@
-.feed-page {
-  &-container {
-    position: relative;
-    top: 60px;
-    min-height: calc(100vh - 60px);
-    background-color: #f0f2f5;
-    width: 600px;
-  }
+.feed-page-container {
+  position: relative;
+  top: 60px;
+  min-height: calc(100vh - 60px);
+  background-color: #f0f2f5;
+}
+
+.post-list-container {
+  width: 600px;
+  margin: auto;
 }

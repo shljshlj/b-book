@@ -8,7 +8,9 @@ class FeedPage extends Component {
   render() {
     return (
       <div className="feed-page-container">
-        <PostList />
+        <div className="post-list-container">
+          <PostList />
+        </div>
       </div>
     );
   }
