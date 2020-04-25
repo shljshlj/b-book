@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="site-container">
       <SiteHeader />
-      {/* <div className="main-content">
-        <FeedPage />
-      </div> */}
+        {/* <FeedPage /> */}
         <ProfilePage />
     </div>
   );

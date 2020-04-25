@@ -1,6 +1,15 @@
 :root {
   --nav-bar-background-gradient:  linear-gradient(to top, #FFFFFF, rgb(255, 255, 255), rgba(255,255,255,0.7), rgba(255,255,255,0.4), rgba(255,255,255,0));
+  --primary-text: #050505;
+  --secondary-text: #65676b;
 
+  --secondary-button-background: #e4e6eb;
+
+  --accent: rgb(24, 118, 242);
+
+  --hover-overlay: rgba(0, 0, 0, 0.05);
+
+  --divider: #ced0d4;
 }
 
 html {
@@ -10,6 +19,7 @@ html {
 body {
   /* font-family: 'Open Sans Condensed', sans-serif; */
   font-family: Helvetica, Arial, sans-serif;
+  background-color: #fff;
 }
 
 * {
@@ -26,6 +36,7 @@ button {
   border: none;
   padding: 0;
   background-color: inherit;
+  color: inherit;
 }
 
 ul {
@@ -37,12 +48,4 @@ ul {
 .site-container {
   display: flex;
   flex-direction: column;
-
-}
-
-.main-content {
-  position: relative;
-  top: 60px;
-  min-height: calc(100vh - 60px);
-  background-color: #f0f2f5;
 }

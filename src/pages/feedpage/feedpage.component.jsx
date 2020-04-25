@@ -7,7 +7,7 @@ import './feedpage.styles.scss';
 class FeedPage extends Component {
   render() {
     return (
-      <div className="feed-container">
+      <div className="feed-page-container">
         <PostList />
       </div>
     );
