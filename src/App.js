@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="site-container">
       <SiteHeader />
-      <Route exact path="/" component={FeedPage} />
-      <Route path="/profile" component={ProfilePage} />
+      <Switch>
+        <Route exact path="/" component={FeedPage} />
+        <Route path="/profile" component={ProfilePage} />
+      </Switch>
     </div>
   );
 }
