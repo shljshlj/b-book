@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import NavigationLink from '../navigation-link/navigation-link.component';
+
 import './site-header.styles.scss';
 
 const SiteHeader = () => (
@@ -13,13 +15,13 @@ const SiteHeader = () => (
       <div className="site-navigation-container">
         <ul className="site-navigation__list">
           <li className="site-navigation__item">
-            <Link to="/">Feed</Link>
+            <NavigationLink url="/" title="Feed" />
           </li>
           <li className="site-navigation__item">
-            <Link to="/users">People</Link>
+            <NavigationLink url="/users" title="People" />
           </li>
           <li className="site-navigation__item">
-            <Link to="/profile">Profile</Link>
+            <NavigationLink url="/profile" title="Profile" />
           </li>
         </ul>
       </div>

@@ -2,6 +2,7 @@ import React from 'react';
 
 import ProfileImage from '../../components/profile-image/profile-image.component';
 import PostList from '../../components/post-list/post-list.component';
+import NavigationLink from '../../components/navigation-link/navigation-link.component';
 
 import './profile.styles.scss';
 
@@ -35,20 +36,8 @@ const ProfilePage = () => (
       <div className="profile-navigation-container">
         <nav className="profile-navigation__nav">
           <div className="profile-navigation__list">
-            <a className="profile-navigation__link">
-              <div className="profile-navigation__item">
-                <span className="profile-navigation__item-text">Timeline</span>
-                <div class="profile-navigation__item-underline"></div>
-              </div>
-              <div className="profile-navigation__link-overlay"></div>
-            </a>
-            <a className="profile-navigation__link">
-              <div className="profile-navigation__item">
-                <span className="profile-navigation__item-text">About</span>
-                <div class="profile-navigation__item-underline"></div>
-              </div>
-              <div className="profile-navigation__link-overlay"></div>
-            </a>
+            <NavigationLink url="/profile" title="Timeline" />
+            <NavigationLink url="/profile/about" title="About" />
           </div>
         </nav>
         <div className="profile-navigation__tools">
