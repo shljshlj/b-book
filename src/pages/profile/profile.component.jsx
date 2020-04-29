@@ -56,6 +56,7 @@ const ProfilePage = () => (
             <h1>Photos</h1>
           </section>
         </aside>
+
         <main className="profile-page__main">
           <div className="profile-page__main-content">
             <section className="create-post"></section>
